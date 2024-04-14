@@ -47,7 +47,7 @@ The exercise includes the following steps:
 - Once the repository is cloned, Do make sure to install the packages needed to run the code.
     Execute `pip install -r requirements.txt`
 
-- Steps in Execution of Code:
+- Steps in Execution of Code in `Habyt_Proposed_Schema.ipynb`:
     1. Import Packages
     2. Retrive Data from the following URL `https://www.common.com/cmn-api/listings/common`
     3. Create class definitions based on the proposed Schema

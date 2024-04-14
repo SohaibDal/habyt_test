@@ -28,7 +28,7 @@
 
 The diagram visually represents the relationships between the entities in the schema. It shows how the entities are connected and the cardinality of those relationships.
 
-(![Schema](Habyt_Proposed_Schema.png))
+![Schema](Habyt_Proposed_Schema.png)
 
 ### Rationale:
 The schema is designed to support a rental property management system where various attributes and relationships are organized.
@@ -47,7 +47,7 @@ The exercise includes the following steps:
 - Once the repository is cloned, Do make sure to install the packages needed to run the code.
     Execute `pip install -r requirements.txt`
 
-- Steps in Execution of Code in `Habyt_Proposed_Schema.ipynb`:
+- Steps in Execution of Code in `Habyt_test_ETL.ipynb`:
     1. Import Packages
     2. Retrive Data from the following URL `https://www.common.com/cmn-api/listings/common`
     3. Create class definitions based on the proposed Schema

@@ -44,19 +44,27 @@ The schema is designed to be flexible and adaptable to future changes in busines
 ## Code Exercise
 
 The exercise includes the following steps:
-- Once the repository is cloned, Do make sure to install the packages needed to run the code.
-    Execute `pip install -r requirements.txt`
+- Once the repository is cloned, Make sure to also have docker installed in your system.
 
-- Steps in Execution of Code in `Habyt_test_ETL.ipynb`:
+- Steps in python Code `Habyt_test_ETL.py`:
     1. Import Packages
     2. Retrive Data from the following URL `https://www.common.com/cmn-api/listings/common`
     3. Create class definitions based on the proposed Schema
     4. Transform JSON data into object models
     5. Create CSV files from the Objects and make sure to remove any duplicated rows
 
+- To run the code execute the following commands:
+    1. Build the docker image
+    ```docker build --pull --rm -f "DockerFIle" -t habyttest:final "."```
+
+    2. Run the code
+    ```docker run habyttest:final```
+
 - After execution of the complete script there will be following CSV files created:
     1. `properties.csv`
     2. `addresses.csv`
-    3. `pricings.csv`
-    4. `fees.csv`
-    5. `images.csv`
+    3. `units.csv`
+    4. `pricings.csv`
+    5. `fees.csv`
+    6. `images.csv`
+ 
